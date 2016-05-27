@@ -1,0 +1,11 @@
+tr {
+  cursor: pointer;
+}
+
+.modal-header {
+  background-size: cover;
+  height: 10em;
+  color: white;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  font-weight: bold;
+}

@@ -1,0 +1,45 @@
+
+  <p id="erreur"></p>
+
+  <!-- <a href="file:\\\C:\wamp64\www\GameCenter\game.bat">Lien</a> -->
+
+  <table class="table table-striped table-hover ">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nom</th>
+        <th>Platforme</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <div ng-repeat="game in games | filter:filtre">
+        <div class="modal fade" id="myModal{{$index+1}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header" style="background-image: url('images/{{game.image}}');">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h2 class="modal-title" id="myModalLabel">{{game.name | uppercase}}</h2>
+              </div>
+              <div class="modal-body">
+                <strong>Description</strong> : {{game.description}}
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <tr ng-repeat="game in games | filter:filtre" data-toggle="modal" data-target="#myModal{{$index+1}}">
+        <td>
+          {{$index + 1}}
+        </td>
+        <td>
+          {{game.name}}
+        </td>
+        <td>
+          {{game.platform}}
+        </td>
+      </tr>

@@ -1,0 +1,56 @@
+{
+  "games": [{
+    "name": "Hotline Miami",
+    "platform": "PC",
+    "description" : "On tape des gens dans de la musique cool, et on se régale !",
+    "image": "hotlinemiami.jpg"
+  },
+  {
+    "name": "Hotline Miami 2",
+    "platform": "PC",
+    "description": "Encore plus de baston et de musique",
+    "image" : "hotlinemiami2.jpg"
+  },
+   {
+    "name": "Rocket League",
+    "platform": "PC",
+    "description": "Du foot avec des voiture, un régal !",
+    "image": "rocketleague.jpg"
+  },
+{
+    "name": "FIFA 12",
+    "platform": "PS3",
+    "description": "Le fifalcool, tu connais ?",
+    "image": "fifa12.jpg"
+  },
+  {
+    "name": "Slither.io",
+    "platform": "Web",
+    "description": "Des vers et à bouffer, combien de temps vas-tu pouvoir tenir?",
+    "image": "slither.jpg"
+  },
+  {
+    "name": "Elite Dangerous",
+     "platform": "PC",
+     "description": "Hey ! La galaxie à besoin de toi alors va tuer des bouseux !",
+     "image": "elitedangerous.jpg"
+  },
+  {
+    "name": "GTA V",
+    "platform": "PS3",
+    "description": "GTA n'a pas changé et on dérouille autant de piétons qu'avant",
+    "image": "gtav.jpg"
+  },
+  {
+    "name": "Fallout 4",
+    "platform": "PC",
+    "description": "War. War never changes",
+    "image": "fallout4.png"
+  },
+  {
+    "name": "Okami",
+    "platform": "PS2",
+    "description": "Une ode à la poésie et aux loups.",
+    "image": "okami.jpg"
+  }]
+}

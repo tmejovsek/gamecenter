@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="container">
+    <form class="form-horizontal">
+      <fieldset>
+        <legend>Ajouter un jeu</legend>
+        <div class="form-group">
+          <label class="control-label" for="inputDefault" >Nom du jeu</label>
+          <input class="form-control" id="inputDefault" type="text" ng-model="inputName">
+        </div>
+        <div class="form-group">
+          <label for="select" class="col-lg-2 control-label">Plateforme</label>
+          <select class="form-control" id="select" ng-model="inputPlatform">
+            <option>PC</option>
+            <option>PS3</option>
+            <option>Web</option>
+            <option>Gamecube</option>
+            <option>Xbox</option>
+          </select>
+        </div>
+      </fieldset>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="save()">Create !</button>
+    </form>
+    <p>
+      {{ inputName }}
+      {{inputPlatform}}
+    </p>
+    <p>
+      {{msg}}
+    </p>
+  </div>
+</div>
